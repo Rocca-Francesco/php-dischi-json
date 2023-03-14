@@ -7,12 +7,23 @@
 }
 
 main {
-  height: calc(100vh - 3.95rem);
+  height: calc(100% - 3.95rem);
+  padding: 1rem;
   background-color: #1d2d3c;
   color: aliceblue;
 }
 
 .card {
-  min-height: 15rem;
+  min-height: 20rem;
+  padding: 0.5rem;
   background-color: #112030;
+}
+
+.coverAlbums {
+  width: 10rem;
+  margin: 1rem;
+}
+
+.songTitle {
+  font-size: 1.2rem;
 }

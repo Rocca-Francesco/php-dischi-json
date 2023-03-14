@@ -37,12 +37,12 @@
     <main>
       <div class="container">
         <div class="row">
-          <div class="col-4 mt-3">
-            <div class="card d-flex flex-column justify-content-center align-items-center">
-              <img src="" alt="...">
-              <h2>Titolo canzone</h2>
-              <span>Cantante</span>
-              <span>Anno</span>
+          <div v-for="song in songs" class="col-4 mt-3">
+            <div class="card d-flex flex-column justify-content-center align-items-center text-center">
+              <img class="coverAlbums" :src='song.poster' alt="#">
+              <h2 class="songTitle">{{ song.title }}</h2>
+              <span>{{ song.author }}</span>
+              <span>{{ song.year }}</span>
             </div>
           </div>
         </div>
