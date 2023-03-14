@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #112030;
+}
+
+.logo {
+  width: 4rem;
+}
+
+main {
+  height: calc(100vh - 3.95rem);
+  background-color: #1d2d3c;
+  color: aliceblue;
+}
+
+.card {
+  min-height: 15rem;
+  background-color: #112030;
+}
