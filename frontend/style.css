@@ -27,3 +27,8 @@ main {
 .songTitle {
   font-size: 1.2rem;
 }
+
+.songYear {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
